@@ -37,8 +37,6 @@ Therefore, when combining complete tables, it was necessary to perform different
 The desired output is seen below:
 ![unique_titles](https://user-images.githubusercontent.com/68654746/179550106-66e3937f-59e7-4df9-bd1a-80994f01d278.png)
 
-At last, the final output saved as retiring_titles.csv contains the number of retirement-age employees by their most recent job title.
-![retiring_title](https://user-images.githubusercontent.com/68654746/179547126-00528c9b-8948-46ad-9d59-578080a84511.png)
 
 **Deliverable 2** ~ The Employees Eligible for the Mentorship Program**
 
@@ -50,8 +48,11 @@ Below is the exported Mentorship Eligibility table that holds the employees who 
 
 ### Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Gathered in the uniques_title.csv, there are 72,458 employees who can potentially retire. This table also breaks down retirement-eligible employees by job title. It seems that there are a lot of senior staff and senior engineer positions that will potentially be vacant. For these reasons, it may be vital to determine which departments each of the employees are in and submit a list to each department to develop specific plans for when their employees retire. 
-The retirement_info.csv can be joined with an INNER JOIN on the dept_emp and dept_info.csv to create a retiring_info_by_dept that include retiring-eligible employees as well as the departments they work in.  
+Gathering from the the unique_titles.csv, there are 72,458 employees who can potentially retire and a breakdown of retiring-eligible employees by job title. 
+At last, the final output saved as retiring_titles.csv contains the number of retirement-age employees by their most recent job title.
+![retiring_title](https://user-images.githubusercontent.com/68654746/179547126-00528c9b-8948-46ad-9d59-578080a84511.png)
+
+Looking from the retiring_titles.csv, it appears there are a lot of senior staff and senior engineer positions, 25,916 and 24,926 employees respectively, that will potentially be vacant. For these reasons, it may be vital to determine which departments each of the employees are in and submit a list to each department to develop specific plans for when their employees retire.   
 
 2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-Based on retiring_info_by_dept, it would be beneficial to also include the department of which mentors can be matched to new hires in that department when starting the mentorship program. 
+Based on retiring_info_by_dept, it would be beneficial to also include the department of which mentors can be matched to new hires in that department when starting the mentorship program. The unique_titles.csv can be joined with an INNER JOIN on the dept_emp and dept_info.csv to create a retiring_info_by_dept that would include retiring-eligible employees as well as the departments they work in.
