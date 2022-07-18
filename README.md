@@ -5,7 +5,7 @@
 ## Overview of Project
 - In this module, we are exploring SQL and how to organize and query data on a large scale. By understanding entity relationship diagrams, we will practice importing and use different joins to create new tables in pgAdmin. 
 ### Purpose
-- Using SQL tequnique, we will help Pewlett-Hackard compile a list of employees eligible for reitrement and plan for those open positions to be filled. From the six csv files provided, we will practice ERD modeling to highlight sections of each table and understand the relationships to each other in order to determine who is retiring and which positions the retiring people are currently holding. 
+- Using SQL technique will help Pewlett-Hackard compile a list of employees eligible for reitrement and plan for those open positions to be filled. From the six csv files provided, we will practice ERD modeling to highlight sections of each table and understand the relationships to each other in order to determine who is retiring and which positions the retiring people are currently holding. 
 
 Below is an ERD schema we created from the six csv files and will be referencing for this project. 
 - The connecting lines show the relationships between each table or csv file. 
